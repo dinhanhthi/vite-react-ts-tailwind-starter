@@ -1,13 +1,15 @@
 {
   "name": "vite-react-ts-tailwind-starter",
+  "description": "A starter to quickly make a playground for a React app.",
   "private": true,
   "version": "1.0.0",
   "author": "Anh-Thi Dinh",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prettier": "prettier --write \"src/**/*.{ts,js,tsx,html}\"",
+    "lint": "eslint --ext .ts,.tsx,.js,.jsx src"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -28,6 +30,7 @@
     "eslint-plugin-tailwindcss": "^3.10.1",
     "postcss": "^8.4.21",
     "prettier": "^2.8.4",
+    "react-icons": "^4.8.0",
     "tailwindcss": "^3.2.7",
     "typescript": "^4.9.3",
     "vite": "^4.2.0"
