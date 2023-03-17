@@ -1,6 +1,6 @@
 {
   "name": "vite-react-ts-tailwind-starter",
-  "description": "A starter to quickly make a playground for a React app.",
+  "description": "A starter to quickly create a playground for a React app. It includes preconfigured ESLint, Prettier, and VSCode settings.",
   "private": true,
   "version": "1.0.0",
   "author": "Anh-Thi Dinh",

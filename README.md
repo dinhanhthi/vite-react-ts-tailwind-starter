@@ -1,6 +1,6 @@
 # ⚡ vite-react-ts-tailwind-starter
 
-A starter to quickly make a playground for a React app.
+A starter to quickly create a playground for a React app. It includes preconfigured ESLint, Prettier, and VSCode settings.
 
 ## ✨ Tech specs
 
